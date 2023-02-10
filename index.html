@@ -12,6 +12,60 @@
       <link rel="stylesheet" href="Font_6/css/all.min.css">
     <title>ALX*</title>
     <link rel="shortcut Icon" type="Image/png" href="IMG/favi.jfif">
+    <style>
+    .btn::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: rgb(247, 3, 3);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transition: all 0.4s;
+    }
+
+    .btn:hover::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background:rgb(247, 3, 3);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transition: all 0.4s ease-in-out;
+    }
+
+    a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: rgb(247, 3, 3);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transition: all 0.4s;
+    }
+
+    a:hover::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      background: rgb(245, 5, 5);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .bram:hover {
+      box-shadow: -6px -6px 2px 2px rgb(0, 102, 255);
+      transition: all 0.4s;
+    }
+  </style>
 </head>
 <body>
   <!-- section/header -->
@@ -139,19 +193,19 @@
           <div class="col outline-danger"> <img src="IMG/ALU.png" alt="" class="jumi"></div>
         </div>
       <div class="row pt-5 pb-5 gy-5">
-        <div class="col-lg-4">
+        <div class="col-lg-4 bram">
           <p class="fw-700">
            <strong> "ALX was my guild to unlocking Opportunitiesand accelerating my ideas, transforming my passion into my career."</strong>
           </p>
           <small>-Nick Nderi- Garth (Sparr, FL)</small>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 bram">
           <p class="fw-bold">
            <strong> "ALX not only Equipped me with the skills needed to run a successful business but also connected me to people in my industry."</strong>
           </p>
           <small>-Stacy Anyango</small>
         </div>
-        <div class="col-lg-4 text-white p-4" style="background:midnightblue;">
+        <div class="col-lg-4 text-white p-4 bram" style="background:midnightblue;">
           <h4>
             <strong>ALX offers a variety <br> of programmes across in-demand tech discilplines that powerour world</strong>
           </h4>
